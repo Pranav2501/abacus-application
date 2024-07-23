@@ -1,0 +1,86 @@
+/* src/App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a,
+  .navbar li button {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar li a:hover,
+  .navbar li button:hover {
+    background-color: #111;
+  }
+  
+  h1,
+  h2 {
+    margin: 0 0 20px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  ul {
+    font-size: 30px;
+  }
+  
